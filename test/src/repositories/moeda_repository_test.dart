@@ -15,14 +15,6 @@ void main() {
 
     expect(cotacao, 4.862);
   });
-
-  test('Pegar as moedas', () {
-    final store = MoedaStore();
-    final moedas = store.getMoedas();
-
-    for (var i; i <= store.value.moedas.length; i++)
-      print(store.value.moedas[i]);
-  });
 }
 
 const json =
