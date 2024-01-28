@@ -28,6 +28,7 @@ class MoedaRepository {
       );
       moedas.add(model);
     }
+    print(moedas);
     return moedas;
   }
 
